@@ -1,0 +1,88 @@
+   body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('banner.jpg') no-repeat center center/cover  ;
+}
+
+header {
+      background: white;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+   nav {
+    
+  flex: 1;               
+  text-align: center;     
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;  
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 500;
+
+}
+
+nav ul li a:hover {
+  color: #007BFF;
+}
+
+    .register-btn {
+      background: blue;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      position: relative;
+      min-height: 520px;
+      text-align: center;
+      padding: 100px 20px 160px;
+    }
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+      color: #fffefe;
+    }
+    .hero p {
+      font-size: 18px;
+      max-width: 700px;
+      margin: 0 auto;
+      line-height: 1.6;
+      color: #fffefe;
+    }
+   section .register-btn {
+      position: absolute;
+      left: 50%;
+      bottom: 55px;
+      transform: translateX(-50%);
+      background: #1D4ED8;
+      color: #fff;
+      padding: 20px 74px;
+      border-radius: 0px;
+      width: auto;
+      height: auto;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+      text-align: center;
+    }
