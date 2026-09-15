@@ -1,7 +1,13 @@
   body {
       margin: 0;
       font-family: Arial, sans-serif;
+      width: 100%;
+      
+height: 100vh;
       background: url('banner.jpg') no-repeat center center/cover  ;
+       background-size: cover;
+      
+
 }
 
 header {
@@ -86,3 +92,45 @@ nav ul li a:hover {
       display: inline-block;
       text-align: center;
     }
+
+
+.speakers-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 per row */
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.speaker {
+  border: 2px solid #ddd;       /* table-like border */
+  border-radius: 4px;           /* rounded corners */
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* subtle card shadow */
+  text-align: left;
+}
+
+.speaker img {
+  width: 90%;
+  
+  border-radius: 0%;
+  margin-bottom: 15px;
+}
+
+.speaker h3 {
+  margin: 10px 0 5px;
+  text-align: left;
+  font-size: 18px;
+}
+
+.speaker p {
+  margin: 5px 0;
+  text-align: left;
+  font-size: 14px;
+  color: #555;
+}
+section h2{
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
