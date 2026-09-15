@@ -79,7 +79,7 @@ nav ul li a:hover {
    section .register-btn {
       position: absolute;
       left: 50%;
-      bottom: 55px;
+      bottom: 35px;
       transform: translateX(-50%);
       background: #1D4ED8;
       color: #fff;
@@ -130,6 +130,172 @@ nav ul li a:hover {
 }
 section h2{
   text-align: center;
-  font-size: 24px;
+  font-size: 36px;
   margin-bottom: 20px;
+}
+#pricing {
+  margin: 60px auto;
+  text-align: left;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.pricing-card {
+  border: 2px solid #ddd;       
+  border-radius: 10px;           
+  padding: 25px;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05); 
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.pricing-card:hover {
+  transform: translateY(-5px);  
+  border-color: #4e3d3d;       
+}
+
+.pricing-card h3 {
+  text-align: left;
+  margin-bottom: 10px;
+  font-size: 22px;
+  color: #554b4b;
+}
+
+.pricing-card .price {
+  font-size: 28px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0;
+  text-align: left;
+}
+
+.pricing-card ul li {
+  margin: 8px 0;
+  font-size: 14px;
+  color: #000000;
+}
+
+.pricing-card button {
+  margin-top: 20px;
+  padding: 12px 20px;
+  background: #eff2f5;
+  text-color: #ffffff;
+ 
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.pricing-card.pro {
+  background: #000;      
+  color: #fff;            
+  border-color: #000; }
+
+  .pricing-card.pro h3,
+.pricing-card.pro .price,
+.pricing-card.pro ul li {
+  color: #fff;            
+}
+#auth {
+  margin: 60px auto;
+  padding: 40px;
+  text-align: center;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  background: #d9d0c1;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  max-width: 600px;
+}
+
+.auth-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.signup-btn, .login-btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.signup-btn {
+  background: #0073e6;
+  color: #fff;
+}
+.signup-btn:hover { background: #005bb5; }
+
+.login-btn {
+  background: #000;
+  color: #fff;
+}
+.login-btn:hover { background: #333; }
+
+.social-buttons {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.social-buttons button {
+  padding: 12px;
+  font-size: 15px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+
+.google-btn { background: #db4437; color: #fff; }
+.google-btn:hover { background: #c23321; }
+
+.apple-btn { background: #000; color: #fff; }
+.apple-btn:hover { background: #333; }
+
+.facebook-btn { background: #3b5998; color: #fff; }
+.facebook-btn:hover { background: #2d4373; }
+
+.github-btn { background: #24292e; color: #fff; }
+.github-btn:hover { background: #000; }
+
+#site-footer {
+  background: #010321;            
+  color: #716d6d;                 
+  padding: 20px 40px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-links a {
+  color: #918484;
+  text-decoration: none;
+  margin-left: 20px;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #000939;             
 }
