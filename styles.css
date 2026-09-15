@@ -96,17 +96,16 @@ nav ul li a:hover {
 
 .speakers-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 per row */
+  grid-template-columns: repeat(2, 1fr); 
   gap: 30px;
   margin-top: 50px;
 }
 
 .speaker {
-  border: 2px solid #ddd;       /* table-like border */
-  border-radius: 4px;           /* rounded corners */
+  border: 2px solid #ddd;       
   padding: 20px;
   background: #fff;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* subtle card shadow */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
   text-align: left;
 }
 
